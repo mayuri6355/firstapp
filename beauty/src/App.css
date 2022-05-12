@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---Navbar start --*/
+
+.Nav{
+  border-bottom: solid blue;
+  padding-bottom: 0%;
+}
+
+
+
+
+/*----Slider  -----*/
+
+.h1{
+  padding-top: 40px;
+  color: blue;
+}
+
+/*------product ------*/
+
+.hading{
+ padding-top: 50px;
+ padding-bottom: 50px;
+ color: blue;
+ border-top: solid gray;
+
+
+}
+
+.b-category-filter--portfolio.b-category-filter {
+  border: 0;
+  padding: 2px 0 25px;
+
+}
+
+.b-category-filter {
+  padding: 20px 0;
+}
+.b-category-filter--portfolio.b-category-filter ul {
+  padding: 0;
+}
+.b-category-filter ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.b-category-filter ul li {
+  display: inline-block;
+}
+.f-category-filter li {
+  font-size: 24px;
+  line-height: 2;
+  background-color: red;
+}
+
+.f-category-filter li a{
+  font-size: large;
+}
